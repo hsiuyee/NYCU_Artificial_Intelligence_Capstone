@@ -92,7 +92,7 @@ def build_transformer_model(input_shape, num_layers=6):
     for _ in range(num_layers):
         x = transformer_encoder(x)
     x = GlobalAveragePooling1D()(x)
-    x = Dropout(0.1)(x)
+    x = Dropout(0.02)(x)
     outputs = Dense(1)(x)
 
     model = Model(inputs, outputs)

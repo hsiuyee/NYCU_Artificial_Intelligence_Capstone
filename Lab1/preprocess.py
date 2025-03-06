@@ -22,7 +22,7 @@ class Config:
 
     # Default data parameters
     DEFAULT_SYMBOLS = ["BTCUSDT"]
-    DEFAULT_INTERVAL = "1h"
+    DEFAULT_INTERVAL = "15m"
     DEFAULT_START_DATE = "2024-11-01"
     DEFAULT_END_DATE = "2025-02-01"
     DEFAULT_FILENAME = "klines_BTC.csv"
