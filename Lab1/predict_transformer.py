@@ -15,7 +15,7 @@ class Config:
     """
     # File paths and names
     FOLDER_PATH = ""
-    INPUT_FILE = "klines_BTC_with_factors.csv"
+    INPUT_FILE = "klines_BTC_PCA.csv"
     OUTPUT_FILE = "klines_BTC_factors_with_direction.csv"
     VISUALIZATION_FILE = "learning_curve_transformer.png"
     PREDICTION_PLOT_FILE = "predictions_vs_actual_transformer.png"
